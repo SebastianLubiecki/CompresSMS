@@ -17,7 +17,6 @@ public class CompressBySplittedTest {
         String exitText = "AsdAsdAsd";
         String compressText = compressObject.compress(enterText);
         assertEquals(exitText, compressText);
-
     }
 
     @Test
@@ -26,6 +25,5 @@ public class CompressBySplittedTest {
         String exitText = "asd asd asd";
         String deCompressText = compressObject.deCompress(enterText);
         assertEquals(exitText, deCompressText);
-
     }
 }
