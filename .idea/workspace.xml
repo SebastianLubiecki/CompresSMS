@@ -507,7 +507,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="375" />
     <option name="width" value="1553" />
     <option name="height" value="1038" />
@@ -568,7 +568,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543667254930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543667737579" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -586,7 +586,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CastCalculatorTest.costOfNullSms">
+  <component name="RunManager" selected="JUnit.CastCalculatorTest">
     <configuration name="CastCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompresSMS_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -621,28 +621,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaginatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaginatorTest.twoSMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompresSMS_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PaginatorTest" />
+      <option name="METHOD_NAME" value="twoSMS" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.CompressBySplittedTest" />
-      <item itemvalue="JUnit.PaginatorTest" />
       <item itemvalue="JUnit.CompressBySpecialLibraryTest" />
       <item itemvalue="JUnit.CastCalculatorTest" />
       <item itemvalue="JUnit.CastCalculatorTest.costOfNullSms" />
+      <item itemvalue="JUnit.PaginatorTest.twoSMS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CastCalculatorTest.costOfNullSms" />
         <item itemvalue="JUnit.CastCalculatorTest" />
+        <item itemvalue="JUnit.PaginatorTest.twoSMS" />
+        <item itemvalue="JUnit.CastCalculatorTest.costOfNullSms" />
         <item itemvalue="JUnit.CompressBySplittedTest" />
         <item itemvalue="JUnit.CompressBySpecialLibraryTest" />
-        <item itemvalue="JUnit.PaginatorTest" />
       </list>
     </recent_temporary>
   </component>

@@ -25,4 +25,9 @@ public class CompressBySpecialLibraryTest {
         String enterText = compressObject.deCompress(exitText);
         assertTrue(enterText.length() < exitText.length());
     }
+
+    @Test
+    public void emptyString (){
+
+    }
 }

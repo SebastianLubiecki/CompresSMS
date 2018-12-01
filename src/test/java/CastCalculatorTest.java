@@ -8,11 +8,11 @@ import static org.junit.Assert.assertTrue;
 public class CastCalculatorTest {
 
     private CastCalculator calculator;
-    BigDecimal UNIT_PRICE = BigDecimal.valueOf(0.3);
+    BigDecimal unit_price = BigDecimal.valueOf(0.3);
 
     @Before
     public void setCalculator() {
-        calculator = new CastCalculator(UNIT_PRICE, unit_price);
+        calculator = new CastCalculator(unit_price);
     }
 
     @Test
