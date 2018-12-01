@@ -13,6 +13,7 @@ public class PaginatorTest {
 
     @Test
     public void splitText (){
-        paginator.paginate("wadsadxvzxvdfsdfsdfdsfdgvdsvcdscfdscvdsvdsv").equals(5);
+        String enter = "123456789012345678901234567890123456789012345";// dlugosc to 45
+        paginator.paginate(enter).equals(5);
     }
 }

@@ -17,6 +17,15 @@ public class CastCalculatorTest {
 
     @Test
     public void costOfSms() {
-        assertTrue(calculator.costOfSMS(10).equals(3));
+        int numberOfSMS = 10;
+        assertTrue(calculator.costOfSMS(numberOfSMS).equals(3));
     }
+
+    @Test
+    public void costOfNullSms() {
+        int numberOfSMS = 0;
+        assertTrue(calculator.costOfSMS(numberOfSMS).equals(0));
+    }
+
+
 }
