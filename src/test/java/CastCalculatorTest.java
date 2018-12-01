@@ -12,7 +12,7 @@ public class CastCalculatorTest {
 
     @Before
     public void setCalculator() {
-        calculator = new CastCalculator(UNIT_PRICE);
+        calculator = new CastCalculator(UNIT_PRICE, unit_price);
     }
 
     @Test

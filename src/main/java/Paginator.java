@@ -1,9 +1,9 @@
 public class Paginator {
 
-    private static int LENGTH;
+    private final int LENGTH;
 
-    public Paginator(int LENGTH) {
-        LENGTH = LENGTH;
+    public Paginator( int length) {
+        this.LENGTH = length;
     }
 
     public String [] paginate (String text){

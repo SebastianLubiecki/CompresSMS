@@ -2,10 +2,10 @@ import java.math.BigDecimal;
 
 public class CastCalculator {
 
-    private static BigDecimal UNIT_PRICE;
+    private final BigDecimal UNIT_PRICE;
 
-    public CastCalculator(BigDecimal UNIT_PRICE) {
-        UNIT_PRICE = UNIT_PRICE;
+    public CastCalculator( BigDecimal unit_price) {
+        this.UNIT_PRICE = unit_price;
     }
 
     public BigDecimal costOfSMS(int numberOfSMS) {
