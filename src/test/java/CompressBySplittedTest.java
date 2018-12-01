@@ -1,8 +1,17 @@
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.omg.CORBA.Object;
+
+import java.math.BigDecimal;
 
 import static org.junit.Assert.assertEquals;
 
+
+@RunWith(JUnitParamsRunner.class)
 public class CompressBySplittedTest {
     private CompressBySplitted compressObject;
 
@@ -26,4 +35,7 @@ public class CompressBySplittedTest {
         String deCompressText = compressObject.deCompress(enterText);
         assertEquals(exitText, deCompressText);
     }
+
+
+
 }

@@ -9,6 +9,8 @@ public class CastCalculator {
     }
 
     public BigDecimal costOfSMS(int numberOfSMS) {
+
+
         return BigDecimal.valueOf(numberOfSMS).multiply(UNIT_PRICE);
     }
 }

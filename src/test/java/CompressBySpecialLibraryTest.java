@@ -26,8 +26,5 @@ public class CompressBySpecialLibraryTest {
         assertTrue(enterText.length() < exitText.length());
     }
 
-    @Test
-    public void emptyString (){
 
-    }
 }
