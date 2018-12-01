@@ -1,6 +1,6 @@
 public interface Compressor {
 
-    String compress(String userText);
+    String compress(String text);
 
-    String deCompress(String compressedText);
+    String deCompress(String text);
 }

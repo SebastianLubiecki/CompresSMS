@@ -1,20 +1,20 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class CompressBySplittedTest {
-    private CompressBySplitted compressObject;
+public class CompressBySpecialLibraryTest {
+    private CompresBySpecialLibrary compressObject;
 
     @Before
     public void setCompress() {
-        compressObject = new CompressBySplitted();
+        compressObject = new CompresBySpecialLibrary();
     }
 
     @Test
     public void makeCompress() {
+       // compressObject.compress("asd asd asd").equals("AsdAsdAsd");
         assertEquals("AsdAsdAsd", compressObject.compress("asd asd asd"));
-        compressObject.compress("asd asd asd").equals("AsdAsdAsd");
     }
 
     @Test
@@ -22,4 +22,6 @@ public class CompressBySplittedTest {
         assertEquals("asd asd asd", compressObject.deCompress("AsdAsdAsd"));
         compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
     }
+
+
 }

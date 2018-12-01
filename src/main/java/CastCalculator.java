@@ -2,13 +2,13 @@ import java.math.BigDecimal;
 
 public class CastCalculator {
 
-    private static double cost;
+    private static BigDecimal UNIT_PRICE;
 
-    public CastCalculator() {
-        cost = 0.3;
+    public CastCalculator(BigDecimal UNIT_PRICE) {
+        UNIT_PRICE = UNIT_PRICE;
     }
 
     public BigDecimal costOfSMS(int numberOfSMS) {
-        return BigDecimal.valueOf(numberOfSMS * cost);
+        return BigDecimal.valueOf(numberOfSMS).multiply(UNIT_PRICE);
     }
 }

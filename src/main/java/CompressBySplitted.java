@@ -4,7 +4,7 @@ public class CompressBySplitted implements Compressor {
 
 
     @Override
-    public String compress(String userText) {
+    public String compress(String text) {
 
 //        String[] arrayOfUserText = userText.split(" ");
 //        for (int i = 0; i < arrayOfUserText.length; i++) {
@@ -17,7 +17,7 @@ public class CompressBySplitted implements Compressor {
     }
 
     @Override
-    public String deCompress(String compressedText) {
+    public String deCompress(String text) {
 
         return null;
     }
