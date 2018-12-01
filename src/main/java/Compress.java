@@ -9,7 +9,7 @@ public class Compress {
     }
 
 
-    public static int SMSCompresion() {
+    public static void SMSCompresion() {
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Type your massage: \t");
 //        String userText = scanner.nextLine();
@@ -31,4 +31,5 @@ public class Compress {
 //        return costOfSMS;
     }
 
-}
+
+
