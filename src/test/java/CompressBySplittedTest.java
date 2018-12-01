@@ -2,20 +2,20 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CompressBySplittedTest {
-    private CompresBySplitted compressObject;
+    private CompressBySplitted compressObject;
 
     @Before
     public void setCompress() {
-        compressObject = new CompresBySplitted();
+        compressObject = new CompressBySplitted();
     }
 
     @Test
     public void makeCompress (){
-        compressObject.compress();
+        compressObject.compress("asd asd asd").equals("AsdAsdAsd");
     }
 
     @Test
     public void makeDeCompress (){
-        compressObject.deCompress();
+        compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
     }
 }

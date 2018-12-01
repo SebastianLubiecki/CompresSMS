@@ -1,11 +1,12 @@
-public class CompresBySpecialLibrary implements Compresor{
-    @Override
-    public void compress() {
+public class CompresBySpecialLibrary implements Compressor {
 
+    @Override
+    public String compress(String userText) {
+        return null;
     }
 
     @Override
-    public void deCompress() {
-
+    public String deCompress(String compressedText) {
+        return null;
     }
 }

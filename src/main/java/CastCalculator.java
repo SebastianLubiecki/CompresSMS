@@ -1,6 +1,14 @@
+import java.math.BigDecimal;
+
 public class CastCalculator {
 
-    public  double costOfSMS() {
-        return 0.00;
+    private static double cost;
+
+    public CastCalculator() {
+        cost = 0.3;
+    }
+
+    public BigDecimal costOfSMS(int numberOfSMS) {
+        return BigDecimal.valueOf(numberOfSMS * cost);
     }
 }
