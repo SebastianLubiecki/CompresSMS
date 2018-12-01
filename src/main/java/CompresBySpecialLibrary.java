@@ -1,6 +1,4 @@
-public class CompresBySplitted implements Compresor {
-
-
+public class CompresBySpecialLibrary implements Compresor{
     @Override
     public void compress() {
 
