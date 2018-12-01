@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class CompressBySpecialLibraryTest {
     private CompresBySpecialLibrary compressObject;
@@ -13,14 +13,18 @@ public class CompressBySpecialLibraryTest {
 
     @Test
     public void makeCompress() {
-       // compressObject.compress("asd asd asd").equals("AsdAsdAsd");
-        assertEquals("AsdAsdAsd", compressObject.compress("asd asd asd"));
+
+        String enterText = "asd asd asd";
+        String exitText = compressObject.compress(enterText);
+        assertTrue(enterText.length() > exitText.length());
+
     }
 
     @Test
     public void makeDeCompress() {
-        assertEquals("asd asd asd", compressObject.deCompress("AsdAsdAsd"));
-        compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
+        String exitText = "asd asd asd";
+        String enterText = compressObject.deCompress(exitText);
+        assertTrue(enterText.length() < exitText.length());
     }
 
 

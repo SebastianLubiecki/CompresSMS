@@ -14,12 +14,12 @@ public class CompressBySplittedTest {
     @Test
     public void makeCompress() {
         assertEquals("AsdAsdAsd", compressObject.compress("asd asd asd"));
-        compressObject.compress("asd asd asd").equals("AsdAsdAsd");
+      //  compressObject.compress("asd asd asd").equals("AsdAsdAsd");
     }
 
     @Test
     public void makeDeCompress() {
         assertEquals("asd asd asd", compressObject.deCompress("AsdAsdAsd"));
-        compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
+      //  compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
     }
 }
