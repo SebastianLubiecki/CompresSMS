@@ -13,13 +13,19 @@ public class CompressBySplittedTest {
 
     @Test
     public void makeCompress() {
-        assertEquals("AsdAsdAsd", compressObject.compress("asd asd asd"));
-      //  compressObject.compress("asd asd asd").equals("AsdAsdAsd");
+        String enterText = "asd asd asd";
+        String exitText = "AsdAsdAsd";
+        String compressText = compressObject.compress(enterText);
+        assertEquals(exitText, compressText);
+
     }
 
     @Test
     public void makeDeCompress() {
-        assertEquals("asd asd asd", compressObject.deCompress("AsdAsdAsd"));
-      //  compressObject.deCompress("AsdAsdAsd").equals("asd asd asd");
+        String enterText = "AsdAsdAsd";
+        String exitText = "asd asd asd";
+        String deCompressText = compressObject.deCompress(enterText);
+        assertEquals(exitText, deCompressText);
+
     }
 }
