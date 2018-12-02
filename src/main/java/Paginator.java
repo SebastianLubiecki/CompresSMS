@@ -17,8 +17,9 @@ public class Paginator {
             if (LENGTH < text.length()) {
                 String substring = text.substring(0, LENGTH);
                 listOfString.add(substring);
+                text = text.substring(LENGTH);
             }
-            text = text.substring(LENGTH);
+
             if (LENGTH > text.length()) {
                 String substring = text.substring(i);
                 listOfString.add(substring);
@@ -27,9 +28,4 @@ public class Paginator {
         return listOfString;
     }
 
-    public static void main(String[] args) {
-        Paginator paginator = new Paginator(10);
-        System.out.println(paginator.paginate("abcdefghijklmnoprstuwxyzq"));
-
-    }
 }

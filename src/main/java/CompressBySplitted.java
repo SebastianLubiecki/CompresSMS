@@ -11,7 +11,7 @@ public class CompressBySplitted implements Compressor {
             arrayOfUserText[i] = arrayOfUserText[i].substring(0, 1).toUpperCase() + arrayOfUserText[i].substring(1);
             System.out.print(arrayOfUserText[i]);
         }
-        return  String.join("",arrayOfUserText );
+        return String.join("", arrayOfUserText);
     }
 
     @Override
@@ -25,12 +25,5 @@ public class CompressBySplitted implements Compressor {
         newText = new StringBuilder(newText.toString().toLowerCase());
 
         return newText.toString();
-    }
-
-    public static void main(String[] args) {
-        CompressBySplitted compress = new CompressBySplitted();
-        compress.compress("qwe qwew ewew rwerw ");
-        System.out.println();
-        System.out.println(compress.deCompress("QweQwewEwewRwerw"));
     }
 }
