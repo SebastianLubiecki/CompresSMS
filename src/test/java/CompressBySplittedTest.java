@@ -36,6 +36,22 @@ public class CompressBySplittedTest {
         assertEquals(exitText, deCompressText);
     }
 
-
-
+//
+//    @Test
+//    @Parameters(method = "calcValues")
+//    public void simpleCalcTest(BigDecimal unitCost, int numberOfMessages, BigDecimal expectedValue) {
+//        CastCalculator calc = new CastCalculator(unitCost);
+//        assertEquals(new BigDecimal(8), calc.costOfSMS(2));
+//    }
+//
+//    private Object[] calcValue() {
+//        return new Object[]{
+//                new Object[]{new BigDecimal(0), 100, new BigDecimal(0)},
+//
+//                new Object[]{new BigDecimal(0.3), 10, new BigDecimal(3)},
+//
+//                new Object[]{new BigDecimal(0.3), 0, new BigDecimal(0)},
+//
+//        };
+//    }
 }

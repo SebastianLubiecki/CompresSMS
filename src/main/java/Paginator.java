@@ -12,14 +12,24 @@ public class Paginator {
     public List<String> paginate(String text) {
 
         List<String> listOfString = new ArrayList<>();
-
         int i = 0;
         do {
-            String substring = text.substring(i, (i + LENGTH));
-            listOfString.add(substring);
-            i += LENGTH;
-        }while (i<text.length());
+            if (LENGTH < text.length()) {
+                String substring = text.substring(0, LENGTH);
+                listOfString.add(substring);
+            }
+            text = text.substring(LENGTH);
+            if (LENGTH > text.length()) {
+                String substring = text.substring(i);
+                listOfString.add(substring);
+            }
+        } while (LENGTH < text.length());
         return listOfString;
     }
 
+    public static void main(String[] args) {
+        Paginator paginator = new Paginator(10);
+        System.out.println(paginator.paginate("abcdefghijklmnoprstuwxyzq"));
+
+    }
 }
