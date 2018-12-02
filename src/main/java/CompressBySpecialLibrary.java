@@ -1,4 +1,4 @@
-public class CompresBySpecialLibrary implements Compressor {
+public class CompressBySpecialLibrary implements Compressor {
 
     @Override
     public String compress(String text) {

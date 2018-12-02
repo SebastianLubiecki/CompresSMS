@@ -19,12 +19,12 @@ public class Main {
         if (typeOfCompression.equals("S")) {
             CompressBySplitted compressBySplitted = new CompressBySplitted();
             String textAfterCompression = compressBySplitted.compress(smsMassage);
-            Paginator paginator = new Paginator(160);
-            CastCalculator castCalculator = new CastCalculator(BigDecimal.valueOf(0.3));
+            Paginator paginator = new Paginator(10);
+            CastCalculator castCalculator = new CastCalculator(BigDecimal.valueOf(5));
             System.out.println("Cost of SMS is: " + castCalculator.costOfSMS(paginator.paginate(textAfterCompression)));
         }
         if (typeOfCompression.equals("A")) {
-            CompresBySpecialLibrary compresBySpecialLibrary = new CompresBySpecialLibrary();
+            CompressBySpecialLibrary compresBySpecialLibrary = new CompressBySpecialLibrary();
             compresBySpecialLibrary.compress(smsMassage);
         }
     }

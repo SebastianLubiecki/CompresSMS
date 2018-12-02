@@ -12,20 +12,19 @@ public class Paginator {
     public List<String> paginate(String text) {
 
         List<String> listOfString = new ArrayList<>();
-        int i = 0;
-        do {
+
+        while (text.length() > 0) {
             if (LENGTH < text.length()) {
                 String substring = text.substring(0, LENGTH);
                 listOfString.add(substring);
                 text = text.substring(LENGTH);
-            }
 
-            if (LENGTH > text.length()) {
-                String substring = text.substring(i);
+            } else {
+                String substring = text.substring(text.length());
                 listOfString.add(substring);
+                return listOfString;
             }
-        } while (LENGTH < text.length());
+        }
         return listOfString;
     }
-
 }

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5edfe9a8-c026-462f-a951-83fef9f2475a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CastCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CastCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CompresBySpecialLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CompressBySpecialLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CompressBySplitted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CompressBySplitted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Paginator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Paginator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CastCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CastCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PaginatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PaginatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,30 +38,30 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="17" />
+          <entry key="java" value="19" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="23" />
+          <entry key="dummy" value="24" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="3979" />
-          <entry key="txt" value="117" />
+          <entry key="java" value="4134" />
+          <entry key="txt" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="3979" />
-          <entry key="PLAIN_TEXT" value="140" />
+          <entry key="JAVA" value="4134" />
+          <entry key="PLAIN_TEXT" value="205" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CompressBySplittedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="360">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,22 +83,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CastCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="167">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Paginator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="237">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#142#143#0" expanded="true" />
@@ -110,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="209">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#90#91#0" expanded="true" />
@@ -122,19 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CompressBySplitted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CastCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="21">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,10 +134,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CompresBySpecialLibrary.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CompressBySplitted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#3920#3921#0" expanded="true" />
+                <element signature="e#3966#3967#0" expanded="true" />
+                <element signature="e#4403#4404#0" expanded="true" />
+                <element signature="e#4455#4456#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CompressBySpecialLibrary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#116#117#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -158,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PaginatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="318">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="381">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -500,14 +514,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Compressor.java" />
         <option value="$PROJECT_DIR$/src/main/java/CompresBySpecialLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PaginatorTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/CompressBySplittedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CastCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CastCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PaginatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CompressBySpecialLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/java/CompressBySplitted.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paginator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CastCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CastCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -572,7 +587,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543782069200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543785238135" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -590,14 +605,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CastCalculatorTest">
-    <configuration name="CastCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CastCalculator" />
-      <module name="CompresSMS_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PaginatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CompresSMS_main" />
@@ -605,48 +613,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CastCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompressBySpecialLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompresSMS_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CastCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="CompressBySpecialLibraryTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CastCalculatorTest.costOfNullSms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompressBySplittedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompresSMS_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CastCalculatorTest" />
-      <option name="METHOD_NAME" value="costOfNullSms" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CompressBySplittedTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CastCalculatorTest.costOfSms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaginatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompresSMS_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CastCalculatorTest" />
-      <option name="METHOD_NAME" value="costOfSms" />
+      <option name="MAIN_CLASS_NAME" value="PaginatorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaginatorTest.twoSMS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompresSMS_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaginatorTest" />
+      <option name="METHOD_NAME" value="twoSMS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.CompressBySpecialLibraryTest" />
+      <item itemvalue="JUnit.CompressBySplittedTest" />
+      <item itemvalue="JUnit.PaginatorTest" />
+      <item itemvalue="JUnit.PaginatorTest.twoSMS" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.CastCalculatorTest" />
-      <item itemvalue="JUnit.CastCalculatorTest.costOfSms" />
-      <item itemvalue="JUnit.CastCalculatorTest.costOfNullSms" />
-      <item itemvalue="Application.CastCalculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CastCalculatorTest" />
-        <item itemvalue="JUnit.CastCalculatorTest.costOfSms" />
-        <item itemvalue="Application.CastCalculator" />
-        <item itemvalue="JUnit.CastCalculatorTest.costOfNullSms" />
+        <item itemvalue="JUnit.PaginatorTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PaginatorTest.twoSMS" />
+        <item itemvalue="JUnit.CompressBySplittedTest" />
+        <item itemvalue="JUnit.CompressBySpecialLibraryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -780,44 +794,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543764320874</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CostCalculatorTestInGreen!">
+      <created>1543782143306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543782143306</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaginatorTest_splitText - 2018.12.01 at 14h 32m 29s.xml">
-      <configuration name="PaginatorTest.splitText" configurationId="JUnit" />
+    <history-entry file="CastCalculatorTest_costOfNullSms - 2018.12.02 at 21h 17m 46s.xml">
+      <configuration name="CastCalculatorTest.costOfNullSms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaginatorTest_twoSMS - 2018.12.01 at 14h 42m 44s.xml">
+    <history-entry file="CastCalculatorTest_costOfNullSms - 2018.12.02 at 21h 17m 51s.xml">
+      <configuration name="CastCalculatorTest.costOfNullSms" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CastCalculatorTest_costOfSms - 2018.12.02 at 21h 17m 57s.xml">
+      <configuration name="CastCalculatorTest.costOfSms" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CastCalculatorTest_costOfSms - 2018.12.02 at 21h 20m 58s.xml">
+      <configuration name="CastCalculatorTest.costOfSms" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CastCalculatorTest - 2018.12.02 at 21h 21m 11s.xml">
+      <configuration name="CastCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompressBySpecialLibraryTest - 2018.12.02 at 21h 23m 30s.xml">
+      <configuration name="CompressBySpecialLibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompressBySplittedTest - 2018.12.02 at 21h 23m 44s.xml">
+      <configuration name="CompressBySplittedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaginatorTest - 2018.12.02 at 21h 24m 41s.xml">
+      <configuration name="PaginatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaginatorTest - 2018.12.02 at 21h 24m 54s.xml">
+      <configuration name="PaginatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaginatorTest_twoSMS - 2018.12.02 at 21h 25m 49s.xml">
       <configuration name="PaginatorTest.twoSMS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 14h 58m 57s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 36m 38s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 36m 52s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 37m 06s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 50m 20s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 50m 51s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.01 at 15h 50m 58s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompressBySplittedTest_makeDeCompress - 2018.12.02 at 14h 30m 38s.xml">
-      <configuration name="CompressBySplittedTest.makeDeCompress" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -828,7 +848,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3319149" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3319149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -837,7 +857,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32340425" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -932,7 +952,38 @@
     <MESSAGE value="RedRedRedAndRed" />
     <MESSAGE value="RedRedRedAndRedAndRed" />
     <MESSAGE value="RedRedAndLittleGreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="RedRedAndLittleGreen" />
+    <MESSAGE value="CostCalculatorTestInGreen!" />
+    <option name="LAST_COMMIT_MESSAGE" value="CostCalculatorTestInGreen!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CastCalculator.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PaginatorTest.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -974,27 +1025,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#3920#3921#0" expanded="true" />
+            <element signature="e#3966#3967#0" expanded="true" />
+            <element signature="e#4403#4404#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CompressBySplittedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1003,18 +1057,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PaginatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="318">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CompresBySpecialLibrary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CompressBySpecialLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state>
           <folding>
             <element signature="e#116#117#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
@@ -1022,36 +1075,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CompressBySpecialLibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
+        <state relative-caret-position="381">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CastCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CompressBySplitted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Paginator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CastCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="167">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#90#91#0" expanded="true" />
@@ -1060,24 +1125,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CastCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Paginator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="237">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CastCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
           </folding>
         </state>
       </provider>

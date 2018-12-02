@@ -26,4 +26,8 @@ public class CompressBySplitted implements Compressor {
 
         return newText.toString();
     }
+
+    public static void main(String[] args) {
+
+    }
 }

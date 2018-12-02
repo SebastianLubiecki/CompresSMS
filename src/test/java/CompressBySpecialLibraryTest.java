@@ -4,11 +4,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 public class CompressBySpecialLibraryTest {
-    private CompresBySpecialLibrary compressObject;
+    private CompressBySpecialLibrary compressObject;
 
     @Before
     public void setCompress() {
-        compressObject = new CompresBySpecialLibrary();
+        compressObject = new CompressBySpecialLibrary();
     }
 
     @Test
