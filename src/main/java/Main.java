@@ -1,14 +1,15 @@
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         menu();
     }
 
-    public static void menu() {
+    public static void menu() throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Type you SMS: \t");
         String smsMassage = scanner.nextLine();
@@ -16,6 +17,7 @@ public class Main {
                 "\nSimple: S" +
                 "\nAdvance: A");
         String typeOfCompression = scanner.nextLine();
+
         if (typeOfCompression.equals("S")) {
             CompressBySplitted compressBySplitted = new CompressBySplitted();
             String textAfterCompression = compressBySplitted.compress(smsMassage);
@@ -25,8 +27,10 @@ public class Main {
         }
         if (typeOfCompression.equals("A")) {
             CompressBySpecialLibrary compresBySpecialLibrary = new CompressBySpecialLibrary();
-            compresBySpecialLibrary.compress(smsMassage);
-        }
+            String textAfterCompression = compresBySpecialLibrary.compress(smsMassage);
+            Paginator paginator = new Paginator(10);
+            CastCalculator castCalculator = new CastCalculator(BigDecimal.valueOf(5));
+            System.out.println("Cost of SMS is: " + castCalculator.costOfSMS(paginator.paginate(textAfterCompression)));        }
     }
 
 }

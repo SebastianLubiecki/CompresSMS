@@ -1,4 +1,5 @@
-
+import java.util.LinkedList;
+import java.util.List;
 
 public class CompressBySplitted implements Compressor {
 
@@ -21,13 +22,13 @@ public class CompressBySplitted implements Compressor {
         for (String arrayFromDeCompres : arrayFromDeCompress) {
             newText.append(arrayFromDeCompres).append(" ");
         }
-
         newText = new StringBuilder(newText.toString().toLowerCase());
 
-        return newText.toString();
+        return String.valueOf(newText);
     }
 
     public static void main(String[] args) {
-
+        CompressBySplitted compressBySplitted = new CompressBySplitted();
+        System.out.println(compressBySplitted.deCompress("AbcDefGhi"));
     }
 }
